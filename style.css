@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+  color: #222;
+  background-color: #bcd0d3;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+img {
+  float: left;
+  margin-right: 1rem;
+}
+
+div {
+  margin: 1rem 0;
+}
+
+#list {
+  max-height: 350px;
+  overflow-y: auto;
+}
+
+table {
+  position: relative;
+  width: 100%;
+}
+
+tr {
+  transition: ease 0.2s all;
+  background-color: #eee;
+}
+tr:nth-child(even) {
+  background-color: #ddd;
+}
+tr:first-child {
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+tr:not(:first-child):hover {
+  background-color: cadetblue;
+  color: white;
+}
+
+td {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
